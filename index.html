@@ -96,10 +96,10 @@
             showFrase();
             setInterval(showFrase, 5000);
           } else {
-            document.getElementById("frase").innerText = "No hay podcasts aprobados";
+            document.getElementById("frase").innerText = "No hay aprobados";
           }
         } catch (err) {
-          document.getElementById("frase").innerText = "Error al cargar podcasts";
+          document.getElementById("frase").innerText = "Error al cargar";
           console.error(err);
         }
       }
